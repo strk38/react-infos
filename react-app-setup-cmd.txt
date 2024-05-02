@@ -1,0 +1,59 @@
+npm create vite@latest react-knowledge-cafe -- --template react
+
+cd react-knowledge-cafe
+npm install
+
+---Tailwind Setup----
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+code .
+https://tailwindcss.com/docs/guides/vite
+
+--First follow the steps from the link---
+npm i -D daisyui@latest
+
+
+npm run dev
+
+
+-------------
+https://react-icons.github.io/react-icons/
+npm install react-icons --save
+
+https://recharts.org/en-US/guide/getting-started
+https://axios-http.com/docs/api_intro
+
+------
+https://github.com/brillout/awesome-react-components
+-------
+https://reactrouter.com/en/main/start/tutorial
+https://www.npmjs.com/package/react-toastify
+https://www.npmjs.com/package/react-helmet-async
+https://github.com/staylor/react-helmet-async#readme
+---------------------------------------------------
+
+react-vite setup, Tailwind install, DaisyUi, React Router
+react-toastify, react-helmet-async
+
+
+--===================
+Pre-Deployment in Surge:
+
+---Optional---
+npm install --global surge
+surge --version
+--------------
+
+---Mandatory---
+npm run build
+surge dist
+--------------
+
+----------
+----Install Prop Types-----(https://www.npmjs.com/package/prop-types)
+
+npm install --save prop-types
+
+--add it to the components
+import PropTypes from 'prop-types'; 
