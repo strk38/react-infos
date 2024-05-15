@@ -8,21 +8,29 @@ moment-js
 ---npm i [when git clone is used. to run the project] 
 
 
-npm create vite@latest simple-crud-client -- --template react
+====Go to React Router and start stepwise=====
+==============================================
+https://reactrouter.com/en/main/start/tutorial
 
+===============OR==============
+npm create vite@latest simple-crud-client -- --template react
 cd react-knowledge-cafe
 npm install
 
----Tailwind Setup----
-
+===Tailwind Setup | Daisy UI ====
+===========================
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-code .
-https://tailwindcss.com/docs/guides/vite
-
---First follow the steps from the link---
 npm i -D daisyui@latest
+npm install react-router-dom localforage match-sorter sort-by  [React router setup]
 
+code .
+
+==First follow the steps from the link===
+============================================
+https://tailwindcss.com/docs/guides/vite
+https://daisyui.com/docs/install/
+https://reactrouter.com/en/main/start/tutorial
 
 npm run dev
 
@@ -38,33 +46,31 @@ https://axios-http.com/docs/api_intro
 ------
 https://github.com/brillout/awesome-react-components
 -------
-https://reactrouter.com/en/main/start/tutorial
+
 https://www.npmjs.com/package/react-toastify
 https://www.npmjs.com/package/react-helmet-async
 https://github.com/staylor/react-helmet-async#readme
 ---------------------------------------------------
 
---===================
+===================
 Pre-Deployment in Surge:
 
 ---Optional---
 npm install --global surge
 surge --version
---------------
+
 
 ---Mandatory---
 npm run build
 surge dist
 --------------
 
-----------
-----Install Prop Types-----(https://www.npmjs.com/package/prop-types)
-
+========Install Prop Types====
+https://www.npmjs.com/package/prop-types
 npm install --save prop-types
 
 --add it to the components
 import PropTypes from 'prop-types'; 
-
 
 ==================================
 CREATING SERVER
