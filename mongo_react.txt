@@ -1,0 +1,61 @@
+To change directory:
+>e:
+>cd E:\codes\Project_Django\demoProject\React-Practise\mongodb_react
+
+==================================
+CREATING SERVER
+==================================
+npm install express --save
+npm install -g nodemon
+
+==========Creating server with mongodb========== 
+
+mkdir coffee-store-server
+cd coffee-store-server
+npm init -y
+npm i express cors mongodb dotenv
+code .
+===============================
+== [Make necessary changes: ]==
+==> package.json > "scripts" >"start": "node index.js",
+==> add necessary info in index.js
+
+[=================================]
+const express = require('express');
+const cors = require('cors');
+const app = express();
+const port = process.env.PORT || 5000;
+
+//middleware
+app.use(cors());
+app.use(express.json());
+
+//to check if server is running
+app.get('/', (req, res) => {
+    res.send('Coffee store server is running')
+})
+
+app.listen(port, () => {
+    console.log(`Coffee server is running on port: ${port}`)
+})
+
+[=================================]
+
+nodemon index.js  ==>> (to start the server)
+
+-------------------------------------------------
+After successful running check [localhost:5000]
+create react client side and Set-up:
+-------------------------------------------------
+react-router: https://reactrouter.com/en/main/start/tutorial
+tailwind: https://tailwindcss.com/docs/guides/vite
+daisyui:  https://daisyui.com/docs/install/
+[eslint> env: node:true,]
+
+npm run dev
+
+-----------
+firebase : deploy client side
+vercel : deploy server [https://vercel.com/docs/cli]
+
+http://localhost:5173/

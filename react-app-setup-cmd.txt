@@ -1,4 +1,14 @@
-npm create vite@latest react-knowledge-cafe -- --template react
+--https://react-dragon-news-bea4b.web.app/
+
+react-vite setup, Tailwind install, DaisyUi, React Router, 
+Firebase
+react-toastify, 
+react-helmet-async(keeps header and main things fixed accross the page and changes only the content acr like a TabPages),
+moment-js
+---npm i [when git clone is used. to run the project] 
+
+
+npm create vite@latest simple-crud-client -- --template react
 
 cd react-knowledge-cafe
 npm install
@@ -16,6 +26,7 @@ npm i -D daisyui@latest
 
 npm run dev
 
+[eslint> env: node:true,]
 
 -------------
 https://react-icons.github.io/react-icons/
@@ -32,10 +43,6 @@ https://www.npmjs.com/package/react-toastify
 https://www.npmjs.com/package/react-helmet-async
 https://github.com/staylor/react-helmet-async#readme
 ---------------------------------------------------
-
-react-vite setup, Tailwind install, DaisyUi, React Router
-react-toastify, react-helmet-async
-
 
 --===================
 Pre-Deployment in Surge:
@@ -57,3 +64,20 @@ npm install --save prop-types
 
 --add it to the components
 import PropTypes from 'prop-types'; 
+
+
+==================================
+CREATING SERVER
+==================================
+npm install express --save
+npm install -g nodemon
+
+
+mkdir users-management-server
+cd users-management-server
+npm init -y
+code .
+package.json > "scripts" >"start": "node index.js",
+npm i express cors || npm i express cors mongodb
+add necessary info in index.js
+nodemon index.js (to run the server)
