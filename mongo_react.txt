@@ -47,6 +47,8 @@ nodemon index.js  ==>> (to start the server)
 After successful running check [localhost:5000]
 create react client side and Set-up:
 -------------------------------------------------
+https://github.com/strk38/react-infos/blob/main/react-app-setup-cmd.txt
+---------------OR----------
 react-router: https://reactrouter.com/en/main/start/tutorial
 tailwind: https://tailwindcss.com/docs/guides/vite
 daisyui:  https://daisyui.com/docs/install/
