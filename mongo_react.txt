@@ -57,5 +57,3 @@ npm run dev
 -----------
 firebase : deploy client side
 vercel : deploy server [https://vercel.com/docs/cli]
-
-http://localhost:5173/
