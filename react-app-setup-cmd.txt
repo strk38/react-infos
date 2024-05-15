@@ -69,15 +69,4 @@ import PropTypes from 'prop-types';
 ==================================
 CREATING SERVER
 ==================================
-npm install express --save
-npm install -g nodemon
-
-
-mkdir users-management-server
-cd users-management-server
-npm init -y
-code .
-package.json > "scripts" >"start": "node index.js",
-npm i express cors || npm i express cors mongodb
-add necessary info in index.js
-nodemon index.js (to run the server)
+https://github.com/strk38/react-infos/blob/main/mongo_react.txt
