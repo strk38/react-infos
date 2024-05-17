@@ -20,7 +20,7 @@ code .
 ==> package.json > "scripts" >"start": "node index.js",
 ==> add necessary info in index.js
 
-[=================================]
+[============== index.js ===================]
 const express = require('express');
 const cors = require('cors');
 const app = express();
