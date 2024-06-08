@@ -1,4 +1,3 @@
---https://react-dragon-news-bea4b.web.app/
 
 react-vite setup, Tailwind install, DaisyUi, React Router, 
 Firebase
